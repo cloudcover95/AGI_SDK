@@ -6,10 +6,11 @@ PORT = {
     "kind": "companion-spine",
     "quant": "ternary-1.58",
     "download_gb": 0.0,
-    "portrait": "JuniorHome/ui/gaia.html",
-    "omega_mesh": "stub",
+    "companion_ui": "JuniorHome/ui/gaia.html",
+    "dash_ui": "JuniorHome/ui/dash.html",
+    "viewport": {"portrait": [1080, 1920], "landscape": [1920, 1080], "optional": True},
+    "omega_job": "dash-viewport",
     "ue5_launch": False,
-    "likeness": "original-goldend",
 }
 
 
