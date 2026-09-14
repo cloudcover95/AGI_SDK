@@ -6,6 +6,12 @@ PORT = {
     "kind": "companion-spine",
     "quant": "ternary-1.58",
     "download_gb": 0.0,
+    "protocol": "goldend-osai-omega/1",
+    "schemas": [
+        "junior://osai/gaia.system",
+        "junior://osai/golden",
+        "junior://omega/job",
+    ],
     "companion_ui": "JuniorHome/ui/gaia.html",
     "dash_ui": "JuniorHome/ui/dash.html",
     "viewport": {"portrait": [1080, 1920], "landscape": [1920, 1080], "optional": True},
